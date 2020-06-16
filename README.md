@@ -5,13 +5,20 @@ The gihub repository contains codes for the automatic cranial implant design met
 The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/). 
 ### Codes
 The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU. Other python and tensorflow versions have not been tested.
-in the main.py:
-**load n1 model:** from n1_model import auto_encoder   
-**load n2 model:** from n2_model import auto_encoder
-**load skull shape completion model:** from skull_completion_model import auto_encoder
-**to train model:**  model.train()
-**to test model:**   model.test()
-**to run the model (in training or testing mode):** python main.py
+
+in the **main.py:**
+
+⋅⋅* **load n1 model:** from n1_model import auto_encoder   
+
+⋅⋅* **load n2 model:** from n2_model import auto_encoder
+
+⋅⋅* **load skull shape completion model:** from skull_completion_model import auto_encoder
+
+⋅⋅* **to train model:**  model.train()
+
+⋅⋅* **to test model:**   model.test()
+
+⋅⋅* **to run the model (in training or testing mode):** python main.py
 if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES'] = '-1
 
 
