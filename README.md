@@ -1,6 +1,6 @@
 ## A Baseline Approach for the MICCAI 2020 Cranial Implant Design Challenge
 
-The gihub repository contains codes for training and testing the deep learning networks for automatic skull defect prediction described in . which can be used as a baseline approach for the [AutoImplant](https://autoimplant.grand-challenge.org/) challenge in [MICCAI 2020](https://miccai2020.org/en/MICCAI-2020-CHALLENGES.html).
+The gihub repository contains codes for the automatic cranial implant design methods described in 'A Baseline Approach for AutoImplant: theMICCAI 2020 Cranial Implant DesignChallenge', which can be used as a baseline approach for the [AutoImplant](https://autoimplant.grand-challenge.org/) challenge in [MICCAI 2020](https://miccai2020.org/en/MICCAI-2020-CHALLENGES.html).
 
 ### Data
 The training and testing set can be found at the [AutoImplant](https://autoimplant.grand-challenge.org/) challenge website. 
