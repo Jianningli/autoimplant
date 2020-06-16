@@ -1,6 +1,6 @@
 ## A Baseline Approach for the MICCAI 2020 Cranial Implant Design Challenge
 
-The gihub repository contains codes for the automatic cranial implant design methods described in 'A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge'.
+The gihub repository contains codes for the automatic cranial implant design methods described in '**A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge**'
 ### Data
 The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/). 
 ### Codes
@@ -14,7 +14,6 @@ in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES']
 * **to train model:**  ```model.train()```
 * **to test model:**   ```model.test()```
 * **to run the model (in training or testing mode):** ```python main.py```
-
 
 ### License
 The codes are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/Jianningli/autoimplant/blob/master/LICENSE)
