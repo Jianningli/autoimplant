@@ -7,7 +7,7 @@ The training and testing set can be found at the [AutoImplant](https://autoimpla
 
 
 ### Codes
-
+the codes runs through Python '3.6.8' with tensorflow '1.4.0'. 
 
 
 ### Citation (bibtex)
