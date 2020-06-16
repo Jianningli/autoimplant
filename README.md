@@ -1,6 +1,6 @@
 ## A Baseline Approach for the MICCAI 2020 Cranial Implant Design Challenge
 
-The gihub repository contains codes for the automatic cranial implant design methods described in 'A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant DesignChallenge'.
+The gihub repository contains codes for the automatic cranial implant design methods described in 'A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge'.
 ### Data
 The training and testing set can be found at the [AutoImplant](https://autoimplant.grand-challenge.org/) challenge website. 
 ### Codes
