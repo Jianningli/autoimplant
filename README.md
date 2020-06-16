@@ -16,5 +16,5 @@ The codes are licensed under a [Creative Commons Attribution-NonCommercial-Share
 Questions regarding the paper can be communicated to Jianning Li at jianning.li(AT)icg.tugraz.at
 ### Citation (bibtex)
 
-![example](https://github.com/Jianningli/autoimplant/blob/master/images/completion_robustness.png)
+
 
