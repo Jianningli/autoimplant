@@ -39,7 +39,7 @@ The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX N
 ``` python pred_2_org.py```
 
 ### License
-The codes are licensed under a CC BY-NC. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
+The codes are licensed under CC BY-NC. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
 If you use our code/model in your research, please cite our paper:
 ```
 Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger.
