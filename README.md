@@ -5,6 +5,7 @@ The github repository contains codes for the automatic cranial implant design me
 > **Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger. A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020).**
 
 ## Direct Implant Generation & Volumetric Shape Completion
+n1 model is trained for both direction implant prediction (left) and skull shape completion (right).
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png "Logo Title Text 1")
 
 
@@ -13,7 +14,7 @@ The training and testing set can be found at the AutoImplant challenge website (
 ### Codes
 The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU. Other python and tensorflow versions have not been tested.
 
-in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES'] = '-1)
+>in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES'] = '-1)
 
 * **load n1 model:**  ```from n1_model import auto_encoder```   
 * **load n2 model:**  ```from n2_model import auto_encoder```
