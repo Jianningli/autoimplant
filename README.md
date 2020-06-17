@@ -23,7 +23,8 @@ The pros and cons of both formulations are described as follows:
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
 
 ### Quantitative and Qualitative Shape Analysis
-The predicted implant shape (or the completed skull) can be evaluated quantitatively using **Dice Similarity Score (DSC)** or **Hausdorff Distance (HD)**, or qualitatively by assessing how it matches with the ground truth. However, better and more specialized quantitative metrics (as well as the **loss function** for the shape learning network) can be devised for more accurate evaluation of how two shapes match each other.
+The predicted implant shape (or the completed skull) can be evaluated quantitatively using **Dice Similarity Score (DSC)** or **Hausdorff Distance (HD)**, or qualitatively by assessing how it matches with the ground truth. However, better and more specialized quantitative metrics (as well as the **loss function** for the shape learning network) can be devised for more accurate evaluation of how two shapes match each other. Another aspect of qualitative evaluation is to visually inspect if the implant is consistent with the defective skull in terms of the bone thichness, shape as well as boundary of the defected region. 
+
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/match.png)
 
 ### Data
