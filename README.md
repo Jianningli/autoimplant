@@ -6,7 +6,7 @@ The github repository contains codes for the automatic cranial implant design me
 
 ### Direct Implant Generation & Volumetric Shape Completion
 n1 model is trained for both direction implant prediction, as an intermediate step for n2 (left) and skull shape completion (right), in a down-sampled mode.
-The pros and cons of both formulation are described as follows:
+The pros and cons of both formulations are described as follows:
 
 >**direction implant prediction**
 * insensitive to the shape/position of the defects.
@@ -17,13 +17,13 @@ The pros and cons of both formulation are described as follows:
 * can generalize well to varied defects (defects shape, position).
 * the subtraction of the defective skull from the completed skull usually won't yield the desired implant without further post- processing.
 
-
-
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png "Logo Title Text 1")
 
-
 ### Data
-The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/). 
+The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/).
+The challenge provides 100 data pairs for training and 100 for testing. An additional 10 test data are provided for the evaluation of the algorithms robustness.   
+
+
 ### Codes
 The codes run through <ins>Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU</ins>. Other python and tensorflow versions have not been tested.
 
