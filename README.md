@@ -15,7 +15,7 @@ The pros and cons of both formulations are described as follows:
 
 >**skull shape completion**
 * can generalize well to varied defects (defects shape, position).
-* the subtraction of the defective skull from the completed skull usually won't yield the desired implant without further post- processing.
+* the subtraction of the defective skull from the completed skull USUALLY won't yield the desired implant without further post- processing.
 
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
 
