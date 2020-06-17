@@ -39,6 +39,7 @@ load skull shape completion model: from skull_completion_model import auto_encod
 to train model: model.train()
 to test model: model.test()
 to run the model (in training or testing mode): python main.py
+__________________________________________________________________________________________
 to convert the output of n2 to the orignal dimension:  python pred_2_org.py
 ```
 
