@@ -22,6 +22,9 @@ The pros and cons of both formulations are described as follows:
 
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
 
+![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/match.png)
+
+
 ### Data
 The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/).
 The challenge provides 100 data pairs for training and 100 for testing. An additional 10 test data are provided for the evaluation of the algorithms robustness.    
