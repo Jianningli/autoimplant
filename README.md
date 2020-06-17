@@ -5,17 +5,17 @@ The github repository contains codes for the automatic cranial implant design me
 > **Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger. A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020).**
 
 ## Direct Implant Generation & Volumetric Shape Completion
-n1 model is trained for both direction implant prediction (left) and skull shape completion (right).
+n1 model is trained for both direction implant prediction, as an intermediate step for n2 (left) and skull shape completion (right), in a down-sampled mode.
 The pros and cons of both formulation are described as follows:
 
-**direction implant prediction**
+>**direction implant prediction**
 * insensitive to the shape/position of the defects.
 * cannot generalize well to varied defects (defects shape, position).
 * can produce clean/high-quality implants.
 
-**skull shape completion**
+>**skull shape completion**
 * can generalize well to varied defects (defects shape, position).
-* the subtraction
+* the subtraction of the defective skull from the completed skull usually won't yield the desired implant without further post- processing.
 
 
 
