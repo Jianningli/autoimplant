@@ -23,7 +23,7 @@ The pros and cons of both formulations are described as follows:
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
 
 ### Quantitative and Qualitative Shape Analysis
-The predicted implant shape can be evaluated quantitatively using Dice Similarity Score or Hausdorff Distance, or qualitatively by assessing how it matches with the ground truth.
+The predicted implant shape (or the completed skull) can be evaluated quantitatively using Dice Similarity Score or Hausdorff Distance, or qualitatively by assessing how it matches with the ground truth. 
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/match.png)
 
 ### Data
