@@ -7,9 +7,15 @@ The github repository contains codes for the automatic cranial implant design me
 ## Direct Implant Generation & Volumetric Shape Completion
 n1 model is trained for both direction implant prediction (left) and skull shape completion (right).
 The pros and cons of both formulation are described as follows:
+
 **direction implant prediction**
 * insensitive to the shape/position of the defects.
-* 
+* cannot generalize well to varied defects (defects shape, position).
+* can produce clean/high-quality implants.
+
+**skull shape completion**
+* can generalize well to varied defects (defects shape, position).
+* the subtraction
 
 
 
