@@ -14,7 +14,7 @@ in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES']
 * **to train model:**  ```model.train()```
 * **to test model:**   ```model.test()```
 * **to run the model (in training or testing mode):** ```python main.py```
-* **to to convert the output of n1 to the orignal dimension:**  ``` python pred_2_org.py```
+* **to convert the output of n2 to the orignal dimension:**  ``` python pred_2_org.py```
 
 ### License
 The codes are licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://github.com/Jianningli/autoimplant/blob/master/LICENSE)
