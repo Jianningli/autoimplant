@@ -12,7 +12,9 @@ The pros and cons of both formulations are described as follows:
 direct implant prediction
 ```
 > insensitive to the shape/position of the defects.
+
 > cannot generalize well to varied defects (defects shape, position).
+
 > can produce clean/high-quality implants directly.
 ```
 skull shape completion
