@@ -52,7 +52,7 @@ Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg
 A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020)
 ```
 ### Contact
-Questions regarding the paper can be communicated to Jianning Li at jianning.li@icg.tugraz.at
+Questions regarding the paper can be communicated to Jianning Li via <ins>jianning.li@icg.tugraz.at</ins>
 
 
 
