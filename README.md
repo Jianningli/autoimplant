@@ -43,6 +43,7 @@ to convert the output of n2 to the orignal dimension:  python pred_2_org.py
 __________________________________________________________________________________________
 to remove the isolated noise automatically: pre_post_processing.py
 ```
+more skull data processing codes can be found [HERE](https://github.com/Jianningli/autoimplant/blob/master/skull-processing/REAMDE.md).
 
 ### License
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
