@@ -26,7 +26,7 @@ The challenge provides 100 data pairs for training and 100 for testing. An addit
 
 ### Codes
 The codes run through <ins>Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU</ins>. Other python and tensorflow versions have not been tested.
-
+```
 >in the **main.py:** (if no GPU available, set ```os.environ['CUDA_VISIBLE_DEVICES'] = '-1```)
 
 * **load n1 model:**  ```from n1_model import auto_encoder```   
@@ -37,7 +37,7 @@ The codes run through <ins>Python '3.6.8' with tensorflow '1.4.0' on win10 with 
 * **to run the model (in training or testing mode):** ```python main.py```
 > **to convert the output of n2 to the orignal dimension:** 
 ``` python pred_2_org.py```
-
+```
 ### License
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
 If you use our code/model in your research, please cite our paper:
