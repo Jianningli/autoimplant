@@ -18,10 +18,14 @@ in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES']
 
 ### License
 The codes are licensed under a CC BY-NC. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
-
+If you use our code/model in your research, please cite our paper:
+```
+Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger.
+A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020)
+```
 ### Contact
 Questions regarding the paper can be communicated to Jianning Li at jianning.li@icg.tugraz.at
-### Citation (bibtex)
+
 
 
 
