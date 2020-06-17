@@ -41,6 +41,9 @@ to test model: model.test()
 to run the model (in training or testing mode): python main.py
 __________________________________________________________________________________________
 to convert the output of n2 to the orignal dimension:  python pred_2_org.py
+__________________________________________________________________________________________
+to remove the isolated noise automatically: pre_post_processing.py
+
 ```
 
 ### License
