@@ -14,7 +14,7 @@ The training and testing set can be found at the AutoImplant challenge website (
 ### Codes
 The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU. Other python and tensorflow versions have not been tested.
 
->in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES'] = '-1)
+>in the **main.py:** (if no GPU available, set ```os.environ['CUDA_VISIBLE_DEVICES'] = '-1```)
 
 * **load n1 model:**  ```from n1_model import auto_encoder```   
 * **load n2 model:**  ```from n2_model import auto_encoder```
@@ -22,7 +22,8 @@ The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX N
 * **to train model:**  ```model.train()```
 * **to test model:**   ```model.test()```
 * **to run the model (in training or testing mode):** ```python main.py```
-* **to convert the output of n2 to the orignal dimension:**  ``` python pred_2_org.py```
+> **to convert the output of n2 to the orignal dimension:** 
+``` python pred_2_org.py```
 
 ### License
 The codes are licensed under a CC BY-NC. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
