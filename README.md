@@ -1,8 +1,6 @@
 ## A Baseline Approach for the MICCAI 2020 Cranial Implant Design Challenge
 
-
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/teaser1.png)
-![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/teaser.png)
 
 The github repository contains codes for the automatic cranial implant design methods described in:
 
