@@ -17,7 +17,7 @@ in the **main.py:** (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES']
 * **to convert the output of n2 to the orignal dimension:**  ``` python pred_2_org.py```
 
 ### License
-The codes are licensed under a CC BY-NC. See [!LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
+The codes are licensed under a CC BY-NC. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
 
 ### Contact
 Questions regarding the paper can be communicated to Jianning Li at jianning.li@icg.tugraz.at
