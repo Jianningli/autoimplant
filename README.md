@@ -4,6 +4,10 @@
 The github repository contains codes for the automatic cranial implant design methods described in:
 > **Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger. A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020).**
 
+## Direct Implant Generation & Volumetric Shape Completion
+![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png "Logo Title Text 1")
+
+
 ### Data
 The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/). 
 ### Codes
