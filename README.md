@@ -43,11 +43,11 @@ to convert the output of n2 to the orignal dimension:  python pred_2_org.py
 __________________________________________________________________________________________
 to remove the isolated noise automatically: pre_post_processing.py
 ```
-more skull data processing codes can be found [HERE](https://github.com/Jianningli/autoimplant/blob/master/skull-processing/REAMDE.md).
+more skull data processing codes can be found [HERE](https://github.com/Jianningli/autoimplant/tree/master/skull-processing).
 
 ### License
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
-If you use our code/model in your research, please cite our paper:
+If you use our code/methods in your research, please cite our paper:
 ```
 Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe, Dieter Schmalstieg, and Jan Egger.
 A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge (2020)
