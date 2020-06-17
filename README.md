@@ -32,7 +32,6 @@ The codes run through <ins> Python '3.6.8' with tensorflow '1.4.0' on win10 with
 
 ```
 in the main.py: (if no GPU available, set os.environ['CUDA_VISIBLE_DEVICES'] = '-1)
-
 load n1 model: from n1_model import auto_encoder  
 load n2 model: from n2_model import auto_encoder
 load skull shape completion model: from skull_completion_model import auto_encoder
@@ -43,7 +42,6 @@ ________________________________________________________________________________
 to convert the output of n2 to the orignal dimension:  python pred_2_org.py
 __________________________________________________________________________________________
 to remove the isolated noise automatically: pre_post_processing.py
-
 ```
 
 ### License
