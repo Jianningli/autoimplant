@@ -22,6 +22,7 @@ The pros and cons of both formulations are described as follows:
 
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
 
+### Quantitative Shape Analysis
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/match.png)
 
 
