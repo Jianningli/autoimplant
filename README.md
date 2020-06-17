@@ -25,7 +25,7 @@ The pros and cons of both formulation are described as follows:
 ### Data
 The training and testing set can be found at the AutoImplant challenge website (https://autoimplant.grand-challenge.org/). 
 ### Codes
-The codes run through Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU. Other python and tensorflow versions have not been tested.
+The codes run through <ins>Python '3.6.8' with tensorflow '1.4.0' on win10 with GTX Nvidia 1070 GPU</ins>. Other python and tensorflow versions have not been tested.
 
 >in the **main.py:** (if no GPU available, set ```os.environ['CUDA_VISIBLE_DEVICES'] = '-1```)
 
