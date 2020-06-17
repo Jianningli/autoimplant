@@ -9,13 +9,13 @@ The github repository contains codes for the automatic cranial implant design me
 n1 model is trained for both direction implant prediction, as an intermediate step for n2 (left) and skull shape completion (right), in a down-sampled mode.
 The pros and cons of both formulations are described as follows:
 ```
-direct implant prediction**
+direct implant prediction
 ```
 * insensitive to the shape/position of the defects.
 * cannot generalize well to varied defects (defects shape, position).
 * can produce clean/high-quality implants directly.
 ```
-skull shape completion**
+skull shape completion
 ```
 * can generalize well to varied defects (defects shape, position).
 * the subtraction of the defective skull from the completed skull USUALLY won't yield the desired implant without further post- processing.
