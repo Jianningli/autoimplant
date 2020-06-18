@@ -6,9 +6,6 @@ import nrrd
 import os
 from skimage import measure, morphology
 
-
-
-
 if __name__ == '__main__':
     volume=nrrd.read('filename.nrrd')
     skin_verts, skin_faces, skin_norm, skin_val = measure.marching_cubes_lewiner(volume,step_size=1)
