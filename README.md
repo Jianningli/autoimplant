@@ -60,7 +60,6 @@ A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Chal
 ```
 ### Contact
 Jianning Li, Graz University of Technology
-
 Feel free to drop me an email if you have any questions regarding the paper: <ins>jianning.li@icg.tugraz.at</ins>
 
 
