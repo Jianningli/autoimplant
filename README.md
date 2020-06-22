@@ -54,9 +54,9 @@ more skull data processing codes can be found [HERE](https://github.com/Jianning
 ### License
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
 If you use our code/methods in your research, please cite our paper:
-```
+
 > Jianning Li, Antonio Pepe, Christina Gsaxner, Gord von Campe and Jan Egger. A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge. arxiv:3238334 (2020).
-```
+
 ### Contact
 Jianning Li    
 Feel free to drop me an email if you have any questions regarding the paper: <ins>jianning.li@icg.tugraz.at</ins>
