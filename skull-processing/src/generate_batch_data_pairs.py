@@ -20,8 +20,6 @@ def generate_real_hole(data,radius,loc,loc1,idxxx):
 	masked_y=int(y_*1/3)
 	# leave this line unchanged
 	masked_z=int(z_/3)
-    #********************
-
 	cylinder1=pymrt.geometry.cylinder((masked_x,masked_y,masked_z),int(z_),radius,2,position=(1/6,1/6,1))
 	cylinder2=pymrt.geometry.cylinder((masked_x,masked_y,masked_z),int(z_),radius,2,position=(1/6,5/6,1))
 	cylinder3=pymrt.geometry.cylinder((masked_x,masked_y,masked_z),int(z_),radius,2,position=(5/6,1/6,1))
@@ -80,9 +78,9 @@ def generate_real(temp,size,loc,loc1,idxxx):
 
 
 if __name__ == "__main__":
-	data,header=nrrd.read('C:/Users/Jianning/Desktop/new18data/Case24 cropped bone.nrrd')
-	defected_real_dir='C:/Users/Jianning/Desktop/new18data/case24_defected_skulls/'
-	implant_real_dir='C:/Users/Jianning/Desktop/new18data/case24_implants/'
+	data,header=nrrd.read('../sample_case.nrrd')
+	defected_skull_dir='../save_defected_skull_dir/'
+	implant_dir='../save_implant_dir/'
 	f=['01','02','03','04','05','06','07','08','09','10']
 	for i in range(10):
 		size=np.random.randint(6,14,1)[0]
@@ -90,8 +88,8 @@ if __name__ == "__main__":
 		loc1=np.random.randint(1,3,1)[0]
 		idxxx=np.random.randint(1,10,1)[0]
 		print(idxxx)
-		f1=defected_real_dir+'Case24_Defects'+f[i]+'.nrrd'
-		f2=implant_real_dir+'Case24_Implants'+f[i]+'.nrrd'
+		f1=defected_skull_dir+'sample_case_Defects'+f[i]+'.nrrd'
+		f2=implant_dir+'sample_case_Implants'+f[i]+'.nrrd'
 		implants,defected_image=generate_real(data,size,loc,loc1,idxxx)
 		nrrd.write(f1,defected_image,header)
 		nrrd.write(f2,implants,header)
