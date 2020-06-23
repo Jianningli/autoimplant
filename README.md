@@ -55,13 +55,13 @@ more skull data processing codes can be found [HERE](https://github.com/Jianning
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
 If you use our code/methods in your research, please cite our paper:
 
-> @misc{li2020baseline,
-    title={A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge},
-    author={Jianning Li and Antonio Pepe and Christina Gsaxner and Gord von Campe and Jan Egger},
-    year={2020},
-    eprint={2006.12449},
-    archivePrefix={arXiv},
-    primaryClass={cs.CV}
+> @misc{li2020baseline,  
+    title={A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge},  
+    author={Jianning Li and Antonio Pepe and Christina Gsaxner and Gord von Campe and Jan Egger},  
+    year={2020},  
+    eprint={2006.12449},  
+    archivePrefix={arXiv},  
+    primaryClass={cs.CV}  
 }
 
 ### Contact
