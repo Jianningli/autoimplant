@@ -37,7 +37,9 @@ python generate_batch_data_pairs.py
 ### create mesh model from skull volume (.nrrd files)
 ```
 dependency: 
-Open3D(http://www.open3d.org/), scikit-image(https://scikit-image.org/), PyMCubes(https://github.com/pmneila/PyMCubes).
+Open3D(http://www.open3d.org/)
+scikit-image(https://scikit-image.org/)
+PyMCubes(https://github.com/pmneila/PyMCubes)
 installation: pip install open3d, pip install scikit-image, pip install --upgrade PyMCubes
 usage: python nrrd2mesh.py
 ```
