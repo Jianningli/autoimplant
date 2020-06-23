@@ -12,13 +12,12 @@ The pros and cons of both formulations are described as follows:
 
 > direct implant prediction
 
-* insensitive to the shape/position of the defects.
-* cannot generalize well to varied defects (defects shape, position).
+* cannot generalize well to varied defects (e.g., defects shape, position,size).
 * can produce clean/high-quality implants directly.
 
 > skull shape completion
 
-* can generalize well to varied defects (defects shape, position).
+* can generalize well to varied defects (defects shape, position), even if trained only on defects of a fixed pattern.
 * the subtraction of the defective skull from the completed skull USUALLY won't yield the desired implant without further post- processing.
 
 ![alt text](https://github.com/Jianningli/autoimplant/blob/master/images/illustration.png)
