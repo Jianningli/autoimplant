@@ -53,7 +53,7 @@ more skull data processing codes can be found [HERE](https://github.com/Jianning
 
 ### License
 The codes are licensed under the MIT license. See [LICENSE](https://github.com/Jianningli/autoimplant/blob/master/LICENSE) for details.
-If you find our codes useful or use our code/methods in your research, please cite our paper:
+If you find our codes useful or use our codes/methods in your research, please cite our paper:
 ```
 @article{li2020baseline,  
       title={A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge},  
