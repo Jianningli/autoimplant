@@ -30,6 +30,7 @@ usage:
 1.specify  pair_list, defected_dir, implant_dir
 2.specify the size of defect to be injected into the skull 
 3.run in the code: python defectinject.py
+To generate multiple (e.g., 10) defective samples from one complete skull: python generate_batch_data_pairs.py
 ```
 
 ### create mesh model from skull volume (.nrrd files)
