@@ -66,7 +66,7 @@ If you find our codes useful or use our codes/methods in your research, please c
 ```
 ### Contact
 Jianning Li    
-Feel free to drop me an email if you have any questions regarding the paper: <ins>jianning.li@icg.tugraz.at</ins>
+Feel free to drop me an email if you have any questions regarding the paper/code: <ins>jianning.li@icg.tugraz.at</ins>
 
 
 
