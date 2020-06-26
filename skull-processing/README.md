@@ -59,7 +59,9 @@ Volume=polygon2voxel(FV,512,'none',true);
 python:
 import scipy.io as sio, import nrrd 
 volume=sio.loadmat('Volumen.mat')['Volume']
-nrrd.write('volume.nrrd',volume.astype(float64)) 
+nrrd.write('volume.nrrd',volume.astype(float64))  
+see also Open3D Voxelization (http://www.open3d.org/docs/latest/tutorial/Advanced/voxelization.html)
+
 ```
 
 ### STL files dimension calculation
