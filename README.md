@@ -57,7 +57,8 @@ If you find our codes useful or use our codes/methods in your research, please c
   title={A Baseline Approach for AutoImplant: the MICCAI 2020 Cranial Implant Design Challenge},
   author = {Jianning Li and Antonio Pepe and Christina Gsaxner and Gord von Campe and Jan Egger},
   journal={arXiv preprint arXiv:2006.12449},
-  year={2020}
+  year={2020},
+  month={06}
 }
 ```
 ### Contact
