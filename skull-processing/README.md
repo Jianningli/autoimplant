@@ -48,7 +48,7 @@ usage: python nrrd2mesh.py
 ```
 dependency: 
 Polygon2Voxel(https://www.mathworks.com/matlabcentral/fileexchange/24086-polygon2voxel)
-stlread (https://www.mathworks.com/matlabcentral/fileexchange/6678-stlread). 
+stlread (https://www.mathworks.com/matlabcentral/fileexchange/22409-stl-file-reader). 
 usage:
 --------------
 matlab:
